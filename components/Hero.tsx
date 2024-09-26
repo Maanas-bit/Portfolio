@@ -2,6 +2,12 @@ import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip"
 
 const Hero = () => {
   return ( 
@@ -30,9 +36,16 @@ const Hero = () => {
           className="text-center text-[40px] md:text-5xl lg:text-6xl"
           words="Creative solutions for modern challenges"
         />
-        <p className="text-center md:tracking-widest mb-4 text-sm md:text-lg lg:test-2xl">
-          Hi, I&apos;m Maanas, a Web Developer.
-        </p>
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger><p className="text-center md:tracking-widest mb-4 text-sm md:text-lg lg:test-2xl">
+                  Hi, I&apos;m Adrian, a Web Developer.{/*here*/}
+                </p></TooltipTrigger>
+            <TooltipContent>
+              Not really I am Maanas &#58;&#41;
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
         <a href="#about">
           <MagicButton 
             title="Show my work"
@@ -47,3 +60,4 @@ const Hero = () => {
 }
  
 export default Hero;
+

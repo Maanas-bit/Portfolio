@@ -109,31 +109,31 @@ export const testimonials = [
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian&apos;s enthusiasm for every facet of development truly stands out. If you&apos;re seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
+    title: "Director of Alpha Technologies",
+  },
+  {
+    quote:
+      "Working alongside Adrian was a joy. His professionalism, timely responses, and dedication to delivering exceptional results were clear throughout our project. Adrian’s passion for every detail of development stands out.",
+    name: "Joris Annabel",
+    title: "Director of Stream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was a wonderful experience.",
+    name: "Grisha Loviise",
+    title: "Director Technologies",
+  },
+  {
+    quote:
+      "Teaming up with Adrian was an absolute delight. His professionalism, promptness, and dedication to achieving outstanding results were evident from start to finish.",
+    name: "Zarina Alter",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian&apos;s enthusiasm for every facet of development truly stands out. If you&apos;re seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian&apos;s enthusiasm for every facet of development truly stands out. If you&apos;re seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian&apos;s enthusiasm for every facet of development truly stands out. If you&apos;re seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian&apos;s enthusiasm for every facet of development truly stands out. If you&apos;re seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Adrian was a fantastic experience.",
+    name: "Blaženko Brit",
+    title: "Director of AlphaStream",
   },
 ];
 
