@@ -42,6 +42,11 @@ const config = {
   				'100': '#E4ECFF'
   			},
   			purple: '#CBACF9',
+			prple2: {
+				light: '#D6BCFA',
+				DEFAULT: '#9F7AEA',
+				dark: '#6B46C1',
+			},
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
