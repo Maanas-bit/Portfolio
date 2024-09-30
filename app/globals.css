@@ -111,3 +111,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+::selection{
+  background-color: rgb(53, 2, 100);
+}

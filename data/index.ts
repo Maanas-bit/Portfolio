@@ -217,4 +217,9 @@ export const socialMedia = [
     img: "/x.svg",
     link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ/",
   },
+  {
+    id: 4,
+    img: "/Imp.svg",
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ/",
+  },
 ];
