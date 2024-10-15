@@ -9,4 +9,4 @@ const Touch = () => {
     )
 }
 
-export default Touch
+export default Touch;
