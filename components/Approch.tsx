@@ -34,7 +34,7 @@ const Approach = () => {
           every step of the way."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
+            animationSpeed={5.1}
             // change bg-black to bg-pink-900
             containerClassName="bg-red-900 rounded-3xl overflow-hidden"
             colors={[
@@ -45,6 +45,7 @@ const Approach = () => {
             dotSize={2}
           />
           {/* Radial gradient for the cute fade */}
+          {/* what is this?????????????☝*/}
           {/* remove this one */}
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
@@ -56,7 +57,7 @@ const Approach = () => {
           from the ground up."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
+            animationSpeed={5.1}
             containerClassName="bg-blue-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
           />

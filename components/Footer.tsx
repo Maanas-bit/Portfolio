@@ -10,7 +10,10 @@ const Footer = () => {
 
   function iufuwrh(){
     console.log("Hello")
-    router.push("/Touch")
+    router.push("Touch")
+  }
+  function Copyright(){
+    router.push("Copyright")
   }
 
   return ( 
@@ -31,7 +34,9 @@ const Footer = () => {
           />
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">Copyright &copy; 2024 Maanas Jakhar, cause why not 	&#58;&#41;</p>
+        <a onClick={Copyright} className="cursor-pointer">
+          <p className="md:text-base text-sm md:font-normal font-light">Copyright &copy; 2024 Maanas Jakhar, cause why not 	&#58;&#41;</p>
+        </a>
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (
             <a key={profile.id} href={profile.link} target="_blank">

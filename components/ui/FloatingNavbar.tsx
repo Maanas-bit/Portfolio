@@ -65,7 +65,7 @@ export const FloatingNav = ({
           className
         )}
         style={{
-          backdropFilter: "blur(16px) saturate(180%)",
+          backdropFilter: "blur(5px) saturate(200%)",
           backgroundColor: "rgba(17, 25, 40, 0.75)",
           borderRadius: "12px",
           border: "1px solid rgba(255, 255, 255, 0.125)",
